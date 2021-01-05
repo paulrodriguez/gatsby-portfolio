@@ -36,6 +36,7 @@ export const projectsData = [
     title: 'Next Level Apparel',
     info: 'Maintain and build new features for Next Level Apparel\'s B2B website build using the Magento 1x platform.',
     info2: 'Currently, I am helping the migration of the e-commerce store from Magento 1x to Magento 2.',
+    info3:'All work done was while employed at Next Level Apparel.',
     url: 'https://www.nextlevelapparel.com/'
   },
   {
@@ -43,15 +44,16 @@ export const projectsData = [
     img: 'tadashi-shoji.png',
     title: 'Tadashi Shoji',
     info: 'Lead efforts to change the User Interface of the e-commerce store. Developed RMA functionality to process and analyze returns.',
-    info2: '',
+    info2: 'All work done was while employed at Tadashi Shoji.',
     url: 'https://www.tadashishoji.com/'
   },
   {
     id: nanoid(),
     img: 'feedmi.png',
     title: 'FeedMI',
-    info: 'Italian restaurant locator built with custom MVC framework',
+    info: 'Italian restaurant locator built with custom MVC framework.',
     info2: 'Allows owners to manage their menu, business hours and amenities, while customers can search by location, transportation, city, price, etc.',
+    info3:'All Work done was while employed at Emagid.',
     url: 'http://feedmi.it',
   },
   {
@@ -60,7 +62,26 @@ export const projectsData = [
     title: 'Metro Apartments NYC',
     info: 'Property listing locator for NYC-based company built with custom MVC framework',
     info2: 'Allows real estate agents to post rental and sale properties online. search properties by price, amenities, location, size. Ability to contact agent through website.',
+    info3:'All Work done was while employed at Emagid.',
     url: 'http://www.metroaptnyc.com/'
+  },
+  {
+    id: nanoid(),
+    img:'israel-outdoors.png',
+    title:'Israel Outdoors',
+    info: 'Trip Service website, offering trips to individuals looking to visit Israel.',
+    info2: 'Allows guests to sign up for an account, fill out their information for a chance to be selected for a trip. Admininstration side can see all signed up users and talks to an API that can gather more information about applicants.',
+    info3:'All Work done was while employed at Emagid.',
+    url:'https://www.israeloutdoors.com/'
+  },
+  {
+    id: nanoid(),
+    img:'ata-enterprises.png',
+    title: 'ATA Enterprises',
+    info: 'Real estate website with listing for rental properties in the Manhattan New York area.',
+    info2: 'Allows to view rental listings by neighborhood, filter through a variety of criteria.',
+    info3:'All Work done was while employed at Emagid.',
+    url:'https://ataenterprises.com/'
   }
 ];
 
