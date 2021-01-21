@@ -34,7 +34,7 @@ const Skills = () => {
           <p>Proficient in: HTML5, CSS3, SASS, JavaScript, Ajax.</p>
           <p>Familiar with: React, VueJS, LESS, Bootstrap.</p>
 
-          <h3>Dev Tools</h3>
+          <h3>Development Tools</h3>
           <p>Git, Atom, Shell.</p>
           </Fade>
         </div>

@@ -41,10 +41,7 @@ const About = () => {
 
   let resumeData = null;
   if(resume) {
-    console.log(resume);
-    console.log(data);
       resumeData = data.allFile.edges.find((n) => n.node.relativePath.includes(resume));
-      console.log(resumeData);
   }
   return (
     <section id="about">
