@@ -9,7 +9,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,10 +39,7 @@ const About = () => {
     }
   }, []);
 
-  let resumeData = null;
-  if(resume) {
-      resumeData = data.allFile.edges.find((n) => n.node.relativePath.includes(resume));
-  }
+
   return (
     <section id="about">
       <Container>
