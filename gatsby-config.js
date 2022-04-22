@@ -19,13 +19,13 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    {
+    /*{
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `resume`,
         path: `${__dirname}/src/resume`
       }
-    },
+    },*/
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
