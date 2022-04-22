@@ -22,7 +22,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a professional Web Developer with 6+ years of experience, mostly focusing on PHP for the Magento platform.',
+  paragraphOne: 'I am a professional Web Developer with 6+ years of experience, mostly focusing on PHP. I have worked mostly with Magento 1 for 5 years, Magento 2 for 1 year, and Laravel for 1 year. ',
   paragraphTwo: 'I have always been a curious individual, and I am always learn how anything works that might catch my eye. I can disect a problem, break it down into smaller problems, and solve each of those problem to build up a solution to the original problem.',
   paragraphThree: 'I want to help businesses solve their technological needs by coming up with solutions that can catapult their business to success.',
   resume: 'paul-rodriguez-resume.pdf', // if no resume, the button will not show up
@@ -89,7 +89,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Need help with your website?',
   btn: 'Contact Me',
-  email: 'paul.d.rodriguez@outlook.com',
+  link: 'https://docs.google.com/forms/d/e/1FAIpQLSfI6c_cs8C6fwJq2bJFvu1TlwMb19om2BH_nnolh-7YwqjRLg/viewform?usp=sf_link'
 };
 
 // FOOTER DATA
